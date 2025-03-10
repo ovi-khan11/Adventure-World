@@ -1,0 +1,372 @@
+
+/*all mobile devices (phones,0=>667px and down)*/
+@media only screen  and (max-width:667px){
+
+        
+    header{
+        padding: 10px 15px;
+    }
+    .navber{
+        display: block;
+    }
+    .logo{}
+    .logo h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    nav{}
+    nav ul{
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    .bannar{
+        padding: 50px 0px;
+    }
+    .bannar h3{
+        font-size: 25px;
+        
+        
+    }
+    .bannar span{
+        height: 4px;
+        width: 150px;
+    }
+    .bannar h1{
+        font-size: 35px;
+    }
+    .bannar button{
+        padding: 10px 20px;
+    }
+    .upcoming-event{
+        margin: 50px 10px;
+    }
+    .upcoming-event h3{
+        font-size: 30px;
+    }
+    .event{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:30px ;
+        margin-top:20px;
+    }
+    .event-item img{
+        height: 250px;
+    }
+    .event-item h4{
+        font-size: 22px;
+    }
+    .explore{
+        padding: 70px 20px;
+        display: block;
+    }
+    .explore-item{
+        width: 100%;
+    }
+    .explore-item h1{
+        font-size: 30px;
+        margin: 0 0 0px 0;
+    }
+    .explore-item span{
+        height: 4px;
+        width: 150px;
+    }
+    .explore-item p{
+        margin: 10px 0;
+    }
+    .explore-item a{
+        font-size: 18px;
+        font-weight: 500;
+    } 
+    
+    .tour{
+        padding: 60px 10px;
+        display: block;
+    }
+    .tour-item h5{
+        font-size: 20px;
+        margin: 0 0 0 0;
+    }
+    .tour-item a{
+        margin-bottom: 15px;
+        display: inline-block;
+
+    }
+    .tour-item img{
+        object-fit: cover;
+    }
+    .img-one{
+        height: 200px;
+        margin: 0 0 10px 0;
+    }
+    .img-two{
+        height: 200px;
+        margin: 0 0 10px 0;
+    }
+        
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        font-size: 30px;
+        margin:0px 10px;
+    }                                                  
+}
+
+@media only screen and (min-width:668px) and (max-width:768px){
+
+    header{
+        padding: 13px 15px;
+    }
+    .navber{
+        display: block;
+    }
+    .logo{}
+    .logo h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    nav ul{
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    .bannar{
+        padding: 40px 0px;
+    }
+    .bannar h3{
+        font-size: 30px;
+    }
+    .bannar h1{
+        font-size: 45px;
+    }
+    .bannar button{
+        padding: 12px 25px;
+    }
+    .upcoming-event{
+        margin: 50px 10px;
+    }
+    .upcoming-event h3{
+        font-size: 30px;
+    }
+    .event{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px ;
+        margin-top:20px;
+    }
+    .event-item img{
+        height: 250px;
+    }
+    .event-item h4{
+        font-size: 22px;
+    }
+    .explore{
+        padding: 70px 20px;
+        display: flex;
+    }
+    .explore-item{
+        width: 80%;
+    }
+    .explore-item h1{
+        font-size: 30px;
+        margin: 0 0 0px 0;
+    }
+    .explore-item span{
+        height: 4px;
+        width: 150px;
+    }
+    .explore-item p{
+        margin: 10px 0;
+    }
+    .explore-item a{
+        font-size: 18px;
+        font-weight: 500;
+    } 
+    .tour{
+        padding: 70px 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tour-item h5{
+        font-size: 20px;
+        margin: 0 0 0 0;
+    }
+    
+    .tour-item img{
+        object-fit: cover;
+    }
+    .img-one{
+        height: 250px;
+        margin: 0 0 10px 0;
+    }
+    .img-two{
+        height: 200px;
+        margin: 0 0 10px 0;
+    } 
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        font-size: 30px;
+        margin:0px 10px;
+    }      
+}
+
+/* tab landscap,large tab,notebook */
+@media only screen and (min-width:769px) and (max-width:991px){ 
+    
+    header{
+        padding: 15px 40px;
+    }
+    .logo h3{
+        font-size: 22px;
+    }
+    nav{}
+    nav ul{}
+    nav ul li{
+        margin: 0 0 0 31px;
+    }
+    .bannar{
+        padding: 80px 0px;
+    }
+    .bannar h3{
+        font-size: 30px;
+    }
+    .bannar h1{
+        font-size: 60px;
+    }
+    .bannar button{
+        padding: 12px 25px;
+    }
+    .upcoming-event{
+        margin: 50px ;
+    }
+    .upcoming-event h3{
+        font-size: 35px;
+    }
+    .event{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px ;
+        margin-top:20px;
+    }
+    .event-item img{
+        height: 270px;
+    }
+    .event-item h4{
+        font-size: 22px;
+    }    
+    .explore{
+        padding: 70px 20px;
+        display: flex;
+    }
+    .explore-item h1{
+        font-size: 50px;
+        margin: 0 0 10px 0;
+    }
+    .explore-item span{
+        height: 4px;
+        width: 150px;
+    }
+    .explore-item p{
+        margin: 10px 0;
+    }
+    .explore-item a{
+        font-size: 18px;
+        font-weight: 500;
+    } 
+    .tour{
+        padding: 80px 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tour-item h5{
+        font-size: 25px;
+        margin: 0 0 0 0;
+    }
+    .img-one{
+        height: 260px;
+        margin: 0 0 15px 0;
+    }
+    .img-two{
+        height: 210px;
+        margin: 0 0 15px 0;
+    } 
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        font-size: 30px;
+        margin:0px 10px;
+    }
+}
+/* small laptop,17" monitor */
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .bannar h3{
+        font-size: 35px;
+    }
+    .bannar h1{
+        font-size: 65px;
+    }
+    .bannar button{
+        padding: 12px 25px;
+    }
+    .upcoming-event{
+        margin: 50px 80px;
+    }
+    .upcoming-event h3{
+        font-size: 35px;
+    }
+    .event{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px ;
+        margin-top:20px;
+    }
+    .event-item img{
+        height: 280px;
+    }
+    .event-item h4{
+        font-size: 22px;
+    } 
+    .explore-item h1{
+        font-size: 60px;
+        margin: 0 0 10px 0;
+    }
+    .explore-item p{
+        margin: 10px 0;
+    }
+    .explore-item a{
+        font-size: 18px;
+        font-weight: 500;
+    } 
+    .tour{
+        padding: 90px 70px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tour-item h5{
+        font-size: 30px;
+        margin: 0 0 0 0;
+    }
+    .img-one{
+        height: 300px;
+        margin: 0 0 18px 0;
+    }
+    .img-two{
+        height: 250px;
+        margin: 0 0 18px 0;
+    } 
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        font-size: 30px;
+        margin:0px 10px;
+    }
+}
+/* laptop */
+@media only screen and (min-width:1024px) and (max-width:1440px){
+
+}
